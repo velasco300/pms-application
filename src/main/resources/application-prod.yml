@@ -1,0 +1,10 @@
+server:
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: file:/usr/local/myconfig
+
+
+
