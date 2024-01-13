@@ -1,6 +1,11 @@
 spring:
   profiles:
     active: dev
+knife4j:
+  enable: true
+  production: false
+  setting:
+    enable-footer: false
 logging:
   path: logs
   file: app.log
