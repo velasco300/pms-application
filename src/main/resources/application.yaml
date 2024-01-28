@@ -1,13 +1,12 @@
+server:
+  port: 6002
 spring:
-  profiles:
-    active: dev
+  application:
+    name: pms-application
 knife4j:
   enable: true
   production: false
   setting:
     enable-footer: false
-logging:
-  path: logs
-  file: app.log
 
 

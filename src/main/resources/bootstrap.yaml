@@ -1,8 +1,4 @@
-server:
-  port: 6002
 spring:
-  application:
-    name: pms-application
   cloud:
     nacos:
       discovery:
